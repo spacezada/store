@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style_home.css')}}">
+    <link rel="icon" href="{{ url_for('static', filename='logo2.png') }}" type="image/x-icon">
+    <title>StyleSpot</title>
+</head>
+<body>
+    <header>
+        <img class="logo" width="200px" src="{{url_for('static', filename = 'logo.png')}}" alt="">
+            <nav class="container-diversos">
+                    <a class="itens" href="">Entrar</a>
+                    <a class="itens" href="">Cadastre-se</a>
+                    <a class="itens" href="">Contato</a>
+                    <a class="itens" href="">Sair</a>
+            </nav>
+    </header>
+  
+    <main>
+        <h2 class="cabecalho-main">POR TRÁS DA MARCA</h2>
+        <img width="300px" class="logo2" src="{{url_for('static', filename = 'logo2.png')}}" alt="">
+        <h1 class="titulo-main">QUEM SOMOS?</h2>
+        <div class="descricao">
+                <p>
+                    Bem-vindo ao StyleSpot - seu destino online para moda e estilo. Oferecemos uma ampla variedade de roupas, acessórios e calçados, cuidadosamente selecionados para atender aos diferentes estilos e preferências dos nossos clientes.
+                </p>
+                <p>
+                    Acreditamos que a moda é uma forma de expressão pessoal e queremos ajudá-lo a descobrir seu estilo único. Desde roupas casuais até peças formais e trajes esportivos, temos tudo o que você precisa para se destacar e expressar sua criatividade.
+                </p>
+                Nossa equipe está comprometida em fornecer uma experiência de compra agradável e atendimento de qualidade. Explore nosso catálogo atualizado com as últimas tendências e junte-se a nós no StyleSpot para encontrar as melhores peças e tornar-se a melhor versão de si mesmo.
+                <p>
+                    
+                <p class="assinatura">
+                    Equipe StyleSpot
+                </p>
+        </div>
+        
+        <a href="{{url_for('store')}}">
+            <button class="botao">EXPLORAR</button>
+        </a>
+    
+    
+    </main>
+
+    <footer>
+        <div class="footer-container">
+          <div class="nav-container">
+            <h6 class="itens-footer">Endereço</h6>
+            <p>Rua Prates, 194 - Bom Retiro</p>
+            <p>RJ 20211-901</p>
+          </div>
+      
+          <div class="nav-container">
+            <h6 class="itens-footer">Loja</h6>
+            <a href="#">Feminino</a>
+            <a href="#">Masculino</a>
+            <a href="#">Acessórios</a>
+          </div>
+      
+          <div class="nav-container">
+            <h6 class="itens-footer">Suporte ao cliente</h6>
+            <a href="#">Contato</a>
+            <a href="#">Central de ajuda</a>
+            <a href="#">Sobre nós</a>
+          </div>
+      
+          <div class="nav-container">
+            <h6 class="itens-footer">Políticas</h6>
+            <a href="#">Entregas e devoluções</a>
+            <a href="#">Termos e condições</a>
+            <a href="#">Métodos de pagamento</a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

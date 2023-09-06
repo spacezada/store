@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Roboto&display=swap');
+body{
+    background-color: #292929;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif ;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9F6F2;
+    height: 60px;
+    padding: 24px;
+}
+
+.logo{
+    display: flex;
+    margin: 24px;
+}
+
+
+
+.container-diversos{
+    display: flex;
+    gap: 32px;
+    margin: 24px;
+    
+}
+.itens{
+    text-decoration: none;
+    color: black;
+}
+
+#carouselExampleIndicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-top: 15px;
+}
